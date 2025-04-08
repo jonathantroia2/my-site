@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.bar {
+    width: 100%;
+    background-color: #433f3f;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #0077cc;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
